@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mehdi - Développeur Web & IA</title>
+    <link rel="stylesheet" href="style.css?v=16">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#accueil" class="nav-logo">
+                <span class="logo-mark">ME</span>
+                <h2>Mehdi El khou</h2>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#accueil" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#apropos" class="nav-link">À propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#competences" class="nav-link">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projets" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#certificats" class="nav-link">Certificats</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title" id="hero-title">
+                    <span data-translate="hero.greeting">Bonjour, je suis</span> <span class="highlight" id="hero-name">Mehdi El khou</span>
+                </h1>
+                <h2 class="hero-subtitle" data-translate="hero.subtitle">Développeur Web & IA</h2>
+                <p class="hero-description" data-translate="hero.description">
+                    Je crée des applications web modernes et intelligentes, propulsées par l'IA, qui transforment vos idées en solutions concrètes.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary" data-translate="hero.projects">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary" data-translate="hero.contact">Me contacter</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat"><strong>16</strong><span>Projets réalisés</span></div>
+                    <div class="hero-stat"><strong>12</strong><span>Certificats</span></div>
+                    <div class="hero-stat"><strong>2</strong><span>Stages en entreprise</span></div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-window">
+                    <div class="code-window-bar">
+                        <span></span><span></span><span></span>
+                        <em>mehdi.ts</em>
+                    </div>
+<pre class="code-window-body"><code><span class="tk-kw">const</span> <span class="tk-var">mehdi</span> = {
+  <span class="tk-key">role</span>: <span class="tk-str">"Développeur Web &amp; IA"</span>,
+  <span class="tk-key">ecole</span>: <span class="tk-str">"EMSI Marrakech"</span>,
+  <span class="tk-key">web</span>: [<span class="tk-str">"Laravel"</span>, <span class="tk-str">"React"</span>, <span class="tk-str">"Next.js"</span>, <span class="tk-str">".NET"</span>],
+  <span class="tk-key">ia</span>: [<span class="tk-str">"scikit-learn"</span>, <span class="tk-str">"XGBoost"</span>, <span class="tk-str">"NLP"</span>],
+  <span class="tk-key">stages</span>: [<span class="tk-str">"ANP"</span>, <span class="tk-str">"SRM-MS"</span>],
+  <span class="tk-key">objectif</span>: <span class="tk-str">"des produits utiles"</span>,
+};
+
+<span class="tk-var">mehdi</span>.<span class="tk-fn">build</span>(<span class="tk-str">"votre idée"</span>); <span class="tk-cm">// 🚀</span><span class="code-cursor"></span></code></pre>
+                </div>
+                <div class="hero-chip chip-1"><i class="fab fa-laravel"></i> Laravel</div>
+                <div class="hero-chip chip-2"><i class="fas fa-brain"></i> Machine Learning</div>
+                <div class="hero-chip chip-3"><i class="fab fa-react"></i> React</div>
+                <div class="floating-particles">
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 class="section-title" data-title="À propos" data-translate="section.about">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-translate="about.description1">
+                        Étudiant ingénieur en Informatique et Réseaux à l'EMSI Marrakech, je suis développeur web et IA. 
+                        Je conçois des applications web complètes et performantes, du backend jusqu'à l'interface, avec une attention particulière à l'expérience utilisateur.
+                    </p>
+                    <p data-translate="about.description2">
+                        J'intègre l'intelligence artificielle dans mes projets (machine learning, NLP, analyse de données) pour créer des solutions plus intelligentes. 
+                        Mes stages à l'ANP et à la SRM Marrakech-Safi m'ont permis de livrer des plateformes concrètes en entreprise.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="about-card">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div><strong>Formation</strong><span>Cycle ingénieur, EMSI Marrakech</span></div>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-briefcase"></i>
+                            <div><strong>Expérience</strong><span>Stages à l'ANP et à la SRM-MS</span></div>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-code"></i>
+                            <div><strong>Spécialité</strong><span>Web full-stack &amp; IA</span></div>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-location-dot"></i>
+                            <div><strong>Localisation</strong><span>Safi, Maroc</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/mehdi.PNG?v=2" alt="Mehdi El khou" class="profile-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-title="Compétences" data-translate="section.skills">Mes compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-category frontend">
+                    <div class="skill-category-header">
+                        <span class="skill-category-icon"><i class="fas fa-laptop-code"></i></span>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-laravel"></i>
+                            <span>Laravel Blade</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>TypeScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-layer-group"></i>
+                            <span>Next.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category backend">
+                    <div class="skill-category-header">
+                        <span class="skill-category-icon"><i class="fas fa-server"></i></span>
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-node-js"></i>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-laravel"></i>
+                            <span>Laravel</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>.NET</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>JavaFX</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category ai">
+                    <div class="skill-category-header">
+                        <span class="skill-category-icon"><i class="fas fa-microchip"></i></span>
+                        <h3>Intelligence Artificielle</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Machine Learning</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span>Deep Learning</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-robot"></i>
+                            <span>ChatGPT / LLM</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-comments"></i>
+                            <span>Prompt Engineering</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>TensorFlow</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Data Science</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-route"></i>
+                            <span>Q-Learning</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-chart-bar"></i>
+                            <span>Streamlit</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-title="Projets" data-translate="section.projects">Mes projets</h2>
+            <div class="project-filters">
+                <button type="button" class="filter-btn active" data-filter="all">Tous</button>
+                <button type="button" class="filter-btn" data-filter="web">Web</button>
+                <button type="button" class="filter-btn" data-filter="ia">IA &amp; Data</button>
+                <button type="button" class="filter-btn" data-filter="stage">Stages</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <span class="project-badge">Web</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> Déc. 2024</span>
+                        <div class="project-placeholder">
+                            <i class="fas fa-users"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Gestion des clients</h3>
+                        <p>Système de gestion client complet avec base de données, interface d'administration et suivi des interactions.</p>
+                        <div class="project-tech">
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <button type="button" class="btn btn-small" data-gallery="clients">Voir le projet</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <span class="project-badge">Web</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> Janv. 2025</span>
+                        <div class="project-placeholder">
+                            <i class="fas fa-book"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Cahier de Texte</h3>
+                        <p>Plateforme de gestion scolaire complète permettant aux professeurs d'ajouter, modifier et supprimer les étudiants, de consulter le bureau virtuel et de gérer tous les aspects pédagogiques de leur classe.</p>
+                        <div class="project-tech">
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <button type="button" class="btn btn-small" data-gallery="cahier">Voir le projet</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <span class="project-badge">Web</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> 2024</span>
+                        <div class="project-placeholder">
+                            <i class="fas fa-futbol"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sportof</h3>
+                        <p>Site e-commerce spécialisé dans la vente de maillots de football des grandes équipes européennes. Interface moderne avec navigation par ligues (Liga, Premier League, Bundesliga, Serie A) et galerie de produits détaillée.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <button type="button" class="btn btn-small" data-gallery="sportof">Voir le projet</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ia">
+                    <div class="project-image">
+                        <span class="project-badge">IA &amp; Data</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> Avr. 2026</span>
+                        <div class="project-placeholder">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Web Mining Foot – Coupe du Monde 2026</h3>
+                        <p>Pipeline de web mining qui collecte les données de SofaScore (sélections, derniers matchs, statistiques des joueurs, calendrier du Mondial 2026) et entraîne un modèle de prédiction des résultats, avec un dashboard interactif par équipe.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Playwright</span>
+                            <span>Pandas</span>
+                            <span>scikit-learn</span>
+                            <span>Streamlit</span>
+                        </div>
+                        <div class="project-links">
+                            <button type="button" class="btn btn-small" data-gallery="foot">Voir le projet</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="stage web ia">
+                    <div class="project-image">
+                        <span class="project-badge">Stage</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> Été 2026</span>
+                        <div class="project-placeholder">
+                            <i class="fas fa-anchor"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Stage ANP – Gestion des réclamations</h3>
+                        <p>Plateforme de l'Agence Nationale des Ports pour déposer et suivre les réclamations : rôles multiples, workflow d'approbation, historique, export PDF et assistant IA qui rédige la réclamation et prédit sa priorité et sa catégorie.</p>
+                        <div class="project-tech">
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>Tailwind CSS</span>
+                            <span>Python</span>
+                            <span>XGBoost</span>
+                        </div>
+                        <div class="project-links">
+                            <button type="button" class="btn btn-small" data-gallery="anp">Voir le projet</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <span class="project-badge">Web</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> Août 2026</span>
+                        <div class="project-placeholder">
+                            <i class="fas fa-file-contract"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>SPHP – Gestion des contrats clients</h3>
+                        <p>Plateforme de gestion des clients et contrats d'une société d'hygiène : calcul et planification automatiques des interventions, affectation des techniciens, espaces Admin, Manager, Technicien et Client, dashboard et génération de PDF.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>Chart.js</span>
+                            <span>Dompdf</span>
+                        </div>
+                        <div class="project-links">
+                            <button type="button" class="btn btn-small" data-gallery="sphp">Voir le projet</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <span class="project-badge">Web</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> Déc. 2025</span>
+                        <div class="project-placeholder">
+                            <i class="fas fa-car"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Location de voitures</h3>
+                        <p>Application web de location de véhicules : gestion du parc automobile, réservations, paiements, contrats PDF générés automatiquement, signalement d'incidents, notifications et tableau de bord administrateur.</p>
+                        <div class="project-tech">
+                            <span>ASP.NET Core MVC</span>
+                            <span>Entity Framework</span>
+                            <span>MySQL</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <div class="project-links">
+                            <button type="button" class="btn btn-small" data-gallery="location">Voir le projet</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="stage web">
+                    <div class="project-image">
+                        <span class="project-badge">Stage</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> Été 2025</span>
+                        <div class="project-placeholder">
+                            <i class="fas fa-droplet"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Stage SRM-MS – Suivi des demandes techniques</h3>
+                        <p>Plateforme qui centralise les demandes techniques des clients (abonnement, changement de compteur, fuites…) jusqu'à leur résolution, avec affectation des techniciens, notifications, messagerie, statistiques et export PDF.</p>
+                        <div class="project-tech">
+                            <span>Laravel</span>
+                            <span>MySQL</span>
+                            <span>Tailwind CSS</span>
+                            <span>Alpine.js</span>
+                        </div>
+                        <div class="project-links">
+                            <button type="button" class="btn btn-small" data-gallery="srm">Voir le projet</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ia">
+                    <div class="project-image">
+                        <span class="project-badge">IA &amp; Data</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> Avr. 2026</span>
+                        <div class="project-placeholder">
+                            <i class="fas fa-traffic-light"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>IA distribuée – Gestion du trafic</h3>
+                        <p>Simulation d'un carrefour où un agent Q-learning pilote les feux de circulation, comparé à des feux à cycle fixe, avec une démo graphique en temps réel et une modélisation MDP.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Q-learning</span>
+                            <span>NumPy</span>
+                            <span>Matplotlib</span>
+                        </div>
+                        <div class="project-links">
+                            <button type="button" class="btn btn-small" data-gallery="ia">Voir le projet</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ia">
+                    <div class="project-image">
+                        <span class="project-badge">IA &amp; Data</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> Mai 2026</span>
+                        <div class="project-placeholder">
+                            <i class="fas fa-comment-dots"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Stratégies d'exploration de données – Analyse de sentiments</h3>
+                        <p>Analyse de sentiments d'avis e-commerce (Amazon Reviews) avec un modèle DistilBERT fine-tuné et un modèle TF-IDF, et un tableau de bord qui explique les prédictions grâce à SHAP.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>DistilBERT</span>
+                            <span>scikit-learn</span>
+                            <span>SHAP</span>
+                            <span>Streamlit</span>
+                        </div>
+                        <div class="project-links">
+                            <button type="button" class="btn btn-small" data-gallery="strategies">Voir le projet</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <span class="project-badge">Jeu 3D</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> Juil. 2026</span>
+                        <div class="project-placeholder">
+                            <i class="fas fa-dungeon"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Prison Escape – Jeu 3D</h3>
+                        <p>Jeu d'évasion en 3D à la troisième personne : le joueur récupère des clés pour s'échapper sans être repéré par des gardiens contrôlés par une IA, avec mode histoire, mini-carte, sons et menu d'options.</p>
+                        <div class="project-tech">
+                            <span>TypeScript</span>
+                            <span>Three.js</span>
+                            <span>React</span>
+                            <span>Vite</span>
+                        </div>
+                        <div class="project-links">
+                            <button type="button" class="btn btn-small" data-gallery="prison">Voir le projet</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <span class="project-badge">Mobile</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> Déc. 2025</span>
+                        <div class="project-placeholder">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Emploi Public – Application mobile de recrutement</h3>
+                        <p>Application mobile qui relie candidats et employeurs : publication d'offres, recherche avec filtres avancés, candidatures avec lettre de motivation, notifications et génération automatique des contrats.</p>
+                        <div class="project-tech">
+                            <span>React Native</span>
+                            <span>Expo</span>
+                            <span>Laravel API</span>
+                            <span>JWT</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <button type="button" class="btn btn-small" data-gallery="devmobile">Voir le projet</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <span class="project-badge">Desktop</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> Déc. 2025</span>
+                        <div class="project-placeholder">
+                            <i class="fab fa-java"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Gestion d'école – Application Java</h3>
+                        <p>Application desktop de gestion académique avec authentification par rôle (admin, enseignant, étudiant) : étudiants, enseignants, modules, notes, calcul des moyennes et tableau de bord.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>JavaFX</span>
+                            <span>Hibernate</span>
+                            <span>MySQL</span>
+                            <span>Maven</span>
+                        </div>
+                        <div class="project-links">
+                            <button type="button" class="btn btn-small" data-gallery="java">Voir le projet</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ia">
+                    <div class="project-image">
+                        <span class="project-badge">IA &amp; Data</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> Mai 2026</span>
+                        <div class="project-placeholder">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Système distribué – Serving ML</h3>
+                        <p>Déploiement d'un modèle Random Forest en architecture distribuée : deux instances FastAPI derrière un répartiteur de charge Nginx, console web de scoring, métriques Prometheus et conteneurisation Docker.</p>
+                        <div class="project-tech">
+                            <span>FastAPI</span>
+                            <span>Docker</span>
+                            <span>Nginx</span>
+                            <span>scikit-learn</span>
+                            <span>Prometheus</span>
+                        </div>
+                        <div class="project-links">
+                            <button type="button" class="btn btn-small" data-gallery="systeme-distribue">Voir le projet</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web ia">
+                    <div class="project-image">
+                        <span class="project-badge">Web</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> En cours</span>
+                        <div class="project-placeholder">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>EduSpace – Plateforme étudiante</h3>
+                        <p>Plateforme tout-en-un pour les étudiants : QCM, résumés, flashcards, emploi du temps, notes, gestion de projets, groupes de travail, partage de cours et assistant IA intégré.</p>
+                        <div class="project-tech">
+                            <span>Next.js</span>
+                            <span>Tailwind CSS</span>
+                            <span>Prisma</span>
+                            <span>MySQL</span>
+                            <span>OpenAI API</span>
+                        </div>
+                        <div class="project-links">
+                            <span class="btn btn-small btn-disabled"><i class="fas fa-code"></i> En cours de développement</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ia">
+                    <div class="project-image">
+                        <span class="project-badge">IA &amp; Data</span>
+                        <span class="project-date"><i class="far fa-calendar-alt"></i> Mai 2026</span>
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Business Intelligence – Power BI &amp; OLAP</h3>
+                        <p>Entrepôt de données complet pour la plateforme e-commerce Olist : ETL Talend, modèle en étoile dans PostgreSQL, analyses OLAP (ROLLUP, CUBE), KPI et tableau de bord Power BI.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>Talend</span>
+                            <span>PostgreSQL</span>
+                            <span>SQL</span>
+                            <span>OLAP</span>
+                        </div>
+                        <div class="project-links">
+                            <button type="button" class="btn btn-small" data-gallery="bi">Voir le projet</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Certificats -->
+    <section id="certificats" class="certificats">
+        <div class="container">
+            <h2 class="section-title" data-title="Certificats">Mes certificats</h2>
+            <p class="certificats-intro"><i class="fas fa-award"></i> 12 certificats Coursera obtenus auprès d'universités et d'entreprises reconnues</p>
+            <div class="certificats-grid"></div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-title="Contact" data-translate="section.contact">Contactez-moi</h2>
+            <div class="contact-panel">
+                <div class="contact-intro">
+                    <h3 data-translate="contact.title">Travaillons ensemble !</h3>
+                    <p data-translate="contact.description">Vous avez un projet en tête ? N'hésitez pas à me contacter pour discuter de vos besoins.</p>
+                    <a href="mailto:mehdi.elkhouu@gmail.com" class="btn btn-primary contact-cta"><i class="fas fa-paper-plane"></i> M'envoyer un email</a>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/mehdi-el-khou-75277935a" target="_blank" rel="noopener" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/MehdiElkhou" target="_blank" rel="noopener" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="contact-cards">
+                    <a href="mailto:mehdi.elkhouu@gmail.com" class="contact-card">
+                        <span class="contact-card-icon"><i class="fas fa-envelope"></i></span>
+                        <span><small>Email</small><strong>mehdi.elkhouu@gmail.com</strong></span>
+                    </a>
+                    <a href="tel:+212642836100" class="contact-card">
+                        <span class="contact-card-icon"><i class="fas fa-phone"></i></span>
+                        <span><small>Téléphone</small><strong>+212 642 836 100</strong></span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mehdi-el-khou-75277935a" target="_blank" rel="noopener" class="contact-card">
+                        <span class="contact-card-icon"><i class="fab fa-linkedin-in"></i></span>
+                        <span><small>LinkedIn</small><strong>Mehdi El khou</strong></span>
+                    </a>
+                    <div class="contact-card">
+                        <span class="contact-card-icon"><i class="fas fa-location-dot"></i></span>
+                        <span><small>Localisation</small><strong>Safi, Maroc</strong></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span class="logo-mark">ME</span>
+                <div><strong>Mehdi El khou</strong><span>Développeur Web &amp; IA</span></div>
+            </div>
+            <nav class="footer-links">
+                <a href="#apropos">À propos</a>
+                <a href="#competences">Compétences</a>
+                <a href="#projets">Projets</a>
+                <a href="#certificats">Certificats</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/mehdi-el-khou-75277935a" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/MehdiElkhou" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:mehdi.elkhouu@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; <span id="footer-year">2026</span> Mehdi El khou. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="gallery-data.js?v=2"></script>
+    <script src="project-details.js?v=2"></script>
+    <script src="script.js?v=17"></script>
+</body>
+</html>
